@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:YoutubeVideoDownloader"
         mc:Ignorable="d"
-        Title="MainWindow" Height="335.318" Width="585.595" MinWidth="585.595" MinHeight="335.318" Background="#FF292828">
+        Title="MainWindow" Height="383.933" Width="585.595" MinWidth="585.595" MinHeight="383.933" Background="#FF292828">
     <Grid x:Name="Backround" Background="#FF5F5F5F" Margin="0,0,-8,0">
         <Label x:Name="linkLabel" Content="Enter your URL here:" HorizontalAlignment="Left" Margin="26,45,0,0" VerticalAlignment="Top" Width="152" AutomationProperties.Name="linkLabel" Background="#FF8B8B8B" Height="26" FontFamily="Courier New">
             <Label.Effect>
@@ -37,5 +37,6 @@
                 <DropShadowEffect BlurRadius="0" ShadowDepth="10"/>
             </ProgressBar.Effect>
         </ProgressBar>
+        <CheckBox x:Name="boolMP4" Content="MP4" HorizontalAlignment="Left" Margin="26,298,0,0" VerticalAlignment="Top" Height="18" Width="83" Background="#FF8B8B8B" FontFamily="Courier New" FontSize="20"/>
     </Grid>
 </Window>
